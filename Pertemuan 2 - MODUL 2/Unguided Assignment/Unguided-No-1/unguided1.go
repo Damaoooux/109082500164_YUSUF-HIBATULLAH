@@ -8,7 +8,7 @@ func main() {
 	fmt.Print("Masukan tahun: ")
 	fmt.Scan(&tahun)
 
-	if tahun%100 != 0 && (tahun%4 == 0) || (tahun%400 == 0) {
+	if (tahun%4 == 0 && tahun%100 != 0) || (tahun%400 == 0) {
 		kabisat = true
 	} else {
 		kabisat = false
