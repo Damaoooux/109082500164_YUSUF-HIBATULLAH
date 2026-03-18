@@ -20,17 +20,7 @@ func kombinasi(n, r int) int {
 
 func main() {
 	var a, b, c, d int
-	fmt.Print("Masukan nilai A: ")
-	fmt.Scan(&a)
-	fmt.Print("Masukan nilai B: ")
-	fmt.Scan(&b)
-	fmt.Print("Masukan nilai C: ")
-	fmt.Scan(&c)
-	fmt.Print("Masukan nilai D: ")
-	fmt.Scan(&d)
-
-	fmt.Println("Hasil Permutasi A terhadap C:", permutasi(a, c))
-	fmt.Println("Hasil Kombinasi A terhadap C:", kombinasi(a, c))
-	fmt.Println("Hasil Permutasi B terhadap D:", permutasi(b, d))
-	fmt.Println("Hasil Kombinasi B terhadap D:", kombinasi(b, d))
+	fmt.Scanln(&a, &b, &c, &d)
+	fmt.Println(permutasi(a, c), kombinasi(a, c))
+	fmt.Println(permutasi(b, d), kombinasi(b, d))
 }

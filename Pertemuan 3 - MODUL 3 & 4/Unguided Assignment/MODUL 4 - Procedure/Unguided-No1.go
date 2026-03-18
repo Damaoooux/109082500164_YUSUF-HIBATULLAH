@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func deret(n int) {
+func cetakDeret(n int) {
 	for n > 1 {
 		fmt.Print(n, " ")
 		if n%2 == 0 {
@@ -18,5 +18,5 @@ func main() {
 	var n int
 	fmt.Print("Masukan angka: ")
 	fmt.Scan(&n)
-	deret(n)
+	cetakDeret(n)
 }

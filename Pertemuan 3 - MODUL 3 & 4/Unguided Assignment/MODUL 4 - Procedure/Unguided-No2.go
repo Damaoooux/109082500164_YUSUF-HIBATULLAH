@@ -56,6 +56,6 @@ func main() {
 		fmt.Scanln(&jariJari)
 		hitungLingkaran(jariJari)
 	default:
-		fmt.Println("Pilihan tidak valid")
+		fmt.Println("Pilihan tidak valid!")
 	}
 }
